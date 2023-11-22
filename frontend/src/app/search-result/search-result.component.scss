@@ -1,0 +1,168 @@
+/*!
+ * Copyright (c) 2014-2023 Bjoern Kimminich & the OWASP Juice Shop contributors.
+ * SPDX-License-Identifier: MIT
+ */
+
+$bg-heading: rgba(0, 0, 0, 0.2);
+
+.table-container {
+  min-width: 350px;
+  width: 80%;
+}
+
+.heading {
+  background: $bg-heading;
+  font-size: x-large;
+  justify-content: center;
+  padding: 12px 20px;
+}
+
+// .img-thumbnail {
+//   width: 100%;
+// }
+
+
+.product {
+  cursor: pointer;
+}
+
+.btn-basket {
+  bottom: 10%;
+}
+
+mat-card {
+  height: calc(100% - 70px);
+  background-color: whitesmoke;
+}
+
+.item-price {
+  font-size: initial;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.item-name {
+  font-size: large;
+  text-align: center;
+}
+
+.emptyState {
+  display: block;
+  height: auto !important;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.noResult {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.noResultText {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.ribbon-card {
+  position: relative;
+}
+#ribbon-sold-out{
+  background-color: red;
+  color: #000;
+}
+
+.ribbon {
+  height: 150px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  width: 150px;
+ 
+}
+
+.ribbon::before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+
+.ribbon span {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  color: black;
+  display: block;
+  font: 700 18px/1 'Lato', sans-serif;
+  padding: 15px 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  width: 225px;
+  background-color: #007bff;
+}
+
+.ribbon-top-left {
+  left: -10px;
+  top: -10px;
+}
+
+.ribbon-top-left::before {
+  border-left-color: transparent;
+  border-top-color: transparent;
+  right: 0;
+  top: 0;
+}
+
+.ribbon-top-left span {
+  right: -25px;
+  top: 30px;
+  transform: rotate(-45deg);
+}
+
+.example-card {
+  width: 300px;
+  height: 420px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+}
+p{
+  text-align: start;
+}
+mat-card-actions{
+  display: flex;
+  justify-content: space-between;
+}
+#add-to-cart{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+
+
+
+#product-container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+#product-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 0;
+ 
+}
