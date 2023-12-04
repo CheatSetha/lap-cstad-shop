@@ -13,8 +13,6 @@
     </button>
 
     <button mat-button routerLink="/search" style="height:60px;" class="buttons" aria-label="Back to homepage">
-      <!-- <img [src]="logoSrc" class="logo" alt={{applicationName}}> -->
-      <!-- <span fxHide.lt-sm fxShow style="font-size: x-large"> {{applicationName}} </span> -->
       <span fxHide.lt-sm fxShow style="font-size: x-large"> CSTAD Cafe</span>
     </button>
 
@@ -95,29 +93,6 @@
       <span class="fa-layers-counter fa-layers-top-right fa-3x warn-notification"
             style="font-size: 47px;">{{itemTotal}}</span>
     </button>
-
-    <button [matMenuTriggerFor]="menu" mat-button style="height:48px; width: 48px;" class="buttons"
-            aria-label="Language selection menu"
-            matTooltip="{{ 'LANGUAGE_SEL_HINT' | translate }}" matTooltipPosition="below">
-      <mat-icon>
-        language
-      </mat-icon>
-      <span fxHide.lt-md fxShow> {{shortKeyLang}} </span>
-    </button>
-
-    <mat-menu #menu="matMenu" [overlapTrigger]="true">
-      <mat-radio-button (click)="changeLanguage(language.key)" *ngFor="let language of languages" [value]="language"
-                        class="mat-menu-item" style="width: 240px;" checked="{{selectedLanguage === language}}"
-                        aria-label="{{language.lang}}">
-        <div style="display: inline-block; width: 200px; margin-left: 5px;">
-          <span *ngFor="let icon of language.icons" [class]="'fi fi-' + icon"></span>
-          {{language?.lang}}
-        </div>
-        <i
-          [class]="'fas fa-thermometer-' + language.gauge + (language.percentage > 70 ? ' confirmation' : ' error')">
-        </i>
-      </mat-radio-button>
-    </mat-menu>
 
     <mat-menu #privacySubMenu="matMenu">
       <button mat-menu-item [routerLink]="['privacy-security/privacy-policy']" aria-label="Go to privacy policy page">

@@ -138,7 +138,7 @@ describe('PaymentComponent', () => {
 
   it('should hold the default applicationName if not defined in configuration', () => {
     configurationService.getApplicationConfiguration.and.returnValue(of({}))
-    expect(component.applicationName).toBe('CSTAD SHOP')
+    expect(component.applicationName).toBe('CSTAD CAFE')
   })
 
   it('should use custom twitter URL if configured', () => {
