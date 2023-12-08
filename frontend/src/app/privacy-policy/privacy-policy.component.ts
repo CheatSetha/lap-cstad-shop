@@ -13,7 +13,7 @@ import { ConfigurationService } from '../Services/configuration.service'
   styleUrls: ['./privacy-policy.component.scss']
 })
 export class PrivacyPolicyComponent implements OnInit {
-  public applicationName: string = 'CSTAD CAFE'
+  public applicationName: string = 'FOODIE CSTAD'
   public privacyContactEmail!: string
   public applicationUrl!: string
 

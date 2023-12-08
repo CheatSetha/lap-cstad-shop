@@ -1,7 +1,4 @@
-/*!
- * Copyright (c) 2014-2023 Bjoern Kimminich & the OWASP Juice Shop contributors.
- * SPDX-License-Identifier: MIT
- */
+
 
 $bg-heading: rgba(0, 0, 0, 0.2);
 
@@ -17,34 +14,12 @@ $bg-heading: rgba(0, 0, 0, 0.2);
   padding: 12px 20px;
 }
 
-// .img-thumbnail {
-//   width: 100%;
-// }
-
 
 .product {
   cursor: pointer;
 }
 
-// .btn-basket {
-//   bottom: 10%;
-// }
 
-// mat-card {
-//   height: calc(100% - 70px);
-//   background-color: whitesmoke;
-// }
-
-// .item-price {
-//   font-size: initial;
-//   margin-top: 12px;
-//   text-align: center;
-// }
-
-// .item-name {
-//   font-size: large;
-//   text-align: center;
-// }
 
 .emptyState {
   display: block;
@@ -136,27 +111,55 @@ $bg-heading: rgba(0, 0, 0, 0.2);
 }
 
 .example-card {
-  width: 200px;
-  height: 250px;
+  width: 260px;
+  // height: 300px;
   padding: 5px;
-  border-radius: 5px;
   box-shadow: #e3dada 0px 0px 5px;
+  // border-radius: 10px;
+  // box-shadow: #e3dada 0px 0px 5px;
+}
+.example-card:hover{
+  box-shadow: #e3dada 0px 0px 5px;
+  transition: 0.5s;
+  z-index: 1;
+  // scale
+  transform: scale(1.1);
+}
+.btn-add-to-cart{
+  color: white;
+  background-color: #00b14f;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: none;
+
+
+}
+.example-card:hover .btn-add-to-cart{
+  display: block;
+  transition: 0.5s;
+  z-index: 1;
+ 
+  
 }
 
-#product-container{
-  margin-top: 20px;.example-card {
-  max-width: 180px;
-  margin: 0 auto;
-  text-align: center;
-  border-radius: 5px;
-  box-shadow: #e3dada 0px 0px 5px;
+#product-name{
+  font-size: 16px;
+  font-weight: 600;
+  color: #565656;
+  text-align: start;
+  margin-top: 10px;
+
+
 }
+#product-container{
+  margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
-  flex-shrink: 0;
+  flex-shrink: 1;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 25px;
 }
 #box-detail{
   width: 180px;
@@ -164,8 +167,7 @@ $bg-heading: rgba(0, 0, 0, 0.2);
 }
 
 #product-img{
-  width: 150px;
-  height: 150px;
+  width: 260px;
   border-radius: 5px;
   object-fit: cover;
   display: block;
@@ -178,4 +180,51 @@ $bg-heading: rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#p_price{
+  color: rgb(65, 64, 64);
+  font-weight: 600;
+  font-size: 14px;
+  background-color: transparent !important;
+}
+#all_drink{
+  font-weight: 400;
+  font-size: 20px;
+  
+}
+
+/* Style for the rounded button */
+.rounded-btn {
+  border-radius: 60px; /* Adjust the radius as needed */
+  padding: 10px 20px; /* Set padding for inner content */
+  height: 60px;
+  border: none; /* Remove default button border */
+  background-color: #00b14f; /* Change background color */
+  color: #ffffff; /* Set text color */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s ease; /* Add transition effect */
+
+}
+
+/* Hover effect */
+.rounded-btn:hover {
+  background-color: whitesmoke; /* Change background color on hover */
+  color: #00b14f;
+  
+}
+#h-span{
+  color: #00b14f;
+  
+}
+
+h1{
+  font-size: 3rem;
+  line-height: 1.21428571;
+  font-weight: 700;
+  color: #565656;
+  margin-bottom: 33px;
+}
+
+mat-divider{
+  background-color: #f0f0f0;
 }

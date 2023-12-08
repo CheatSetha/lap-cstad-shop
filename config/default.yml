@@ -3,7 +3,7 @@ server:
   basePath: ''
 application:
   domain: juice-sh.op
-  name: 'CSTAD Cafe'
+  name: 'FOODIE CSTAD'
   logo: coffee.png
   favicon: favicon_js.ico
   theme: bluegrey-lightgreen # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
@@ -83,306 +83,306 @@ hackingInstructor:
   hintPlaybackSpeed: normal # Options: faster fast normal slow slower
 products:
   -
-    name: 'Milk Tea'
-    price: 1.99
-    deluxePrice: 0.99
+    name: 'Roasted Turkey'
+    price: 3.99
+    deluxePrice: 1.99
     limitPerUser: 5
-    description: 'Made from black tea and milk. Contains caffeine.'
-    image: 1.png
+    description: 'Turkey meat, commonly referred to as just turkey, is the meat from turkeys, typically domesticated turkeys but also wild turkeys.'
+    image: 1.webp
     reviews:
       - { text: 'One of my favorites!', author: admin }
   -
-    name: 'Caramel Frappuccino'
-    description: 'Made from coffee, milk and caramel. Contains caffeine.'
+    name: 'Sushi Set'
+    description: 'A sushi set with 6 pieces of nigiri and 6 maki rolls. Contains raw fish.'
     price: 2.99
     deluxePrice: 2.49
-    image: 2.png
+    image: 2.webp
     reviews:
       - { text: 'y0ur f1r3wall needs m0r3 musc13', author: uvogin }
   -
-    name: 'Caramel Macchiato'
-    description: 'Made from coffee, milk and caramel. Contains caffeine.'
-    price: 1.99
-    image: 3.jpg
+    name: 'Turkey Pizza'
+    description: 'Original taste of turkey pizza. made by turkish chef'
+    price: 2.99
+    image: 3.webp
     reviews:
       - { text: 'I bought it, would buy again. 5/7', author: admin }
   -
-    name: 'Iced Caffe latte'
-    description: 'Made from coffee and milk. Contains caffeine.'
-    price: 0.99
-    image: 4.jpg
+    name: 'France bread'
+    description: 'France bread with original tast from paris.'
+    price: 1.99
+    image: 4.webp
   -
-    name: 'Mocha Frappuccino'
-    description: 'Made from coffee, milk and chocolate. Contains caffeine.'
+    name: 'Chicken Wing fry'
+    description: 'Very deliciuse .'
     price: 2.99
     deluxePrice: 1.99
     limitPerUser: 5
-    image: 5.jpg
+    image: 5.webp
   -
-    name: 'Iced Green Tea Latte'
+    name: 'Italian breakfast'
     description: 'Made from green tea and milk. Contains bubble tea pearls.'
     price: 1.99
-    image: 10.png
+    image: 6.webp
     reviews:
       - { text: 'Fry liked it too.', author: bender }
   -
-    name: 'Blueberry Soda'
+    name: 'Chicken Burger'
     description: 'Made from blueberries and soda.'
-    price: 22.49
+    price: 2.49
     limitPerUser: 5
-    image: 11.png
+    image: 7.webp
   
   -
-    name: 'black soda'
+    name: 'Turkey kabab'
     description: 'Made from blackberries and soda.'
     price: 2.01
-    image: setha.png
+    image: 8.webp
     urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
   -
-    name: 'Brown Sugar'
+    name: 'set of Khmer sweet'
     description: 'Made from brown sugar.'
     price: 2.99
-    image: 14.png
+    image: 9.webp
     useForChristmasSpecialChallenge: true
   -
-    name: 'Hot Latte'
+    name: 'Nom Italy'
     description: 'Contains a magical collection of the rarest fruits gathered from all around the world, like Cherymoya Annona cherimola, Jabuticaba Myrciaria cauliflora, Bael Aegle marmelos... and others, at an unbelievable price! <br/><span style="color:red;">This item has been made unavailable because of lack of safety standards.</span>'
-    price: 16.99
-    image: 15.png
+    price: 6.99
+    image: 10.webp
     keywordsForPastebinDataLeakChallenge:
       - hueteroneel
       - eurogium edule
   -
-    name: 'Hot Capuccino'
+    name: 'Honey Lemon Tea'
     description: 'Die-cut sticker with the official 2015/2016 logo. By now this is a rare collectors item. <em>Out of stock!</em>'
     price: 1.99
-    image: 16.png
+    image: 11.webp
     deletedDate: '2017-04-28'
   -
-    name: 'Chocolate Frappe'
+    name: 'Nham Nham'
     description: 'Made from coffee, milk and chocolate. Contains caffeine.'
     price: 4.99
-    image: 21.png
+    image: 12.webp
   -
-    name: 'IT Coffee (16pcs)'
+    name: 'Lahmacun'
     description: 'best product for this shop , very good taste and very good price'
     price: 1.99
-    image: 22.png
+    image: 13.webp
   -
-    name: 'Iced Americano'
+    name: 'Manti'
     description: 'Made from coffee and water. Contains caffeine.'
     price: 1.99
-    image: 33.png
+    image: 14.webp
   -
-    name: 'Iced Matcha Latte'
+    name: 'Baklava'
     description: 'Made from matcha and milk. Contains bubble tea pearls.'
     price: 4.99
-    image: 31.png
+    image: 15.webp
   -
-    name: 'Hot Matcha Latte'
+    name: 'Kofta'
     description: 'Made from matcha and milk. Contains bubble tea pearls. hot hot spicy spicy'
     price: 1.99
-    image: 26.png
+    image: 16.webp
     reviews:
       - { text: 'I straight-up gots nuff props fo''these tattoos!', author: rapper }
   -
-    name: 'khmer Cafe'
+    name: 'Pide'
     description: 'Best tranditional coffee in cambodia'
     price: 0.99
-    image: 106.png
+    image: 17.webp
   -
-    name: 'Coconut Coffee'
+    name: 'Borek'
     description: 'Made from coffee and coconut milk. Contains caffeine.'
     price: 1.99
-    image: 110.png
+    image: 18.webp
   -
-    name: 'Coconut Khmer'
+    name: 'Dolma'
     description: 'Coconut Khmer product jai dep jai dep'
     price: 2.92
     quantity: 5
     limitPerUser: 5
-    image: 114.png
+    image: 19.webp
     reviews:
       - { text: 'This thang would look phat on Bobby''s jacked fur coat!', author: rapper }
       - { text: 'Looks so much better on my uniform than the boring Starfleet symbol.', author: jim }
   -
-    name: 'Coconut Khmer Frappe'
+    name: 'Kuzu Tandir'
     description: 'Coconut from Kompong Cham'
     price: 1.99
-    image: 115.png
+    image: 20.webp
   -
-    name: 'Green Smoothie'
+    name: 'Panna Cotta'
     description: 'Looks poisonous but is actually very good for your health! Made from green cabbage, spinach, kiwi and grass.'
     price: 1.99
-    image: 134.png
+    image: 21.webp
     reviews:
       - { text: 'Fresh out of a replicator.', author: jim }
   -
-    name: 'Watermelon Smoothie'
+    name: 'Pizza Margherita'
     description: 'Juice of the <em>Cydonia oblonga</em> fruit. Not exactly sweet but rich in Vitamin C.'
     price: 2.99
-    image: 153.png
+    image: 22.webp
   -
-    name: 'Strawberry Smoothie'
+    name: 'Spaghetti Carbonara'
     description: 'Finest pressings of strawberry. Allergy disclaimer: Might contain traces of worms. Can be <a href="/#recycle">sent back to us</a> for recycling.'
     price: 1.89
     limitPerUser: 5
-    image: 150.png
+    image: 23.webp
   -
-    name: 'Blueberry Smoothie'
+    name: 'Lasagna'
     description: 'Fruits go in. Juice comes out. Pomace you can send back to us for recycling purposes.'
     price: 2.99
-    image: 135.png
+    image: 24.webp
   -
-    name: 'Passion Fruit Smoothie'
+    name: 'Risotto'
     description: 'This rare item was designed and handcrafted in Sweden. This is why it is so incredibly expensive despite its complete lack of purpose.'
     price: 2.99
-    image: 140.png # Exif metadata contains "OpenSCAD" as subtle hint...
+    image: 25.webp # Exif metadata contains "OpenSCAD" as subtle hint...
     fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
     exifForBlueprintChallenge:
       - OpenSCAD
   -
-    name: 'Passion Soda'
+    name: 'Osso Buco'
     description: 'Very delicious and very expensive.'
     price: 8.74
     quantity: 0
-    image: 141.png
+    image: 26.webp
     deletedDate: '2020-12-24'
   -
-    name: 'Avocado smoothie'
+    name: 'Caprese Salad'
     description: 'Sweet and tasty!'
     price: 2.03
-    image: 133.png
+    image: 27.webp
     deletedDate: '2017-07-01'
   -
-    name: 'Strawberry Juice (500ml)'
+    name: 'Focaccia'
     description: 'Sweet & tasty!'
     price: 3.99
-    image: 146.png
+    image: 28.webp
   -
-    name: 'Orange Juice '
+    name: 'Bruschetta '
     description: 'As the old German saying goes: "Orange are good for the eyes. Or has anyone ever seen a rabbit with glasses?"'
     price: 1.99
-    image: 132.png
+    image: 29.webp
     reviews:
       - { text: '0 st4rs f0r 7h3 h0rr1bl3 s3cur17y', author: uvogin }
   -
-    name: 'Lemon Green Tea'
+    name: 'Gnocchi'
     description: 'Made from green tea and lemon. '
     price: 1.20
-    image: 123.png
+    image: 30.webp
     deletedDate: '2017-09-20'
   -
-    name: 'Lemon Red Tea'
+    name: 'Polenta'
     description: 'Made from red tea and lemon. '
     price: 0.99
-    image: 122.png
+    image: 31.webp
     reviews:
       - { text: 'Even more interesting than watching Interdimensional Cable!', author: morty }
   -
-    name: 'Taro Frappe with milk'
+    name: 'Arancini'
     description: 'Made from taro and milk. Contains bubble tea pearls.'
     price: 1.99
     quantity: 3
     limitPerUser: 1
-    image: 120.png
+    image: 32.webp
   -
-    name: 'Starbuck Frappe'
+    name: 'Kadayif'
     description: 'Copy from starbuck for study purpose'
     price: 9.99
     quantity: 0
-    image: 62.png
+    image: 33.webp
   -
-    name: 'Orange Juice (500ml)'
+    name: 'Menemen'
     description: 'Very delicious and very expensive and juicy.'
     price: 10.50
     quantity: 8
-    image: 56.png
+    image: 34.webp
     reviews:
       - { text: 'Wait for a 10$ Steam sale of Tabletop Simulator!', author: bjoernOwasp }
   -
-    name: 'Strawberry Milk'
+    name: 'Ratatouille'
     description: 'Made from strawberry and milk. '
     price: 2.01
     quantity: 0
-    image: 55.png
+    image: 35.webp
     reviews:
       - { text: "Here yo' learn how tha fuck ta not show yo' goddamn phone on camera!", author: rapper }
   -
-    name: 'Orange Soda'
+    name: 'Quiche Lorraine'
     description: "Best recommend"
     price: 2.00
     quantity: 0
-    image: 53.png
+    image: 36.webp
     reviews:
       - { text: "Rad, dude!", author: rapper }
       - { text: "Looks spacy on Bones' new tricorder!", author: jim }
       - { text: "Will put one on the Planet Express ship's bumper!", author: bender }
   -
-    name: 'Strawberry mixed with milk'
+    name: 'Crème Brûlée'
     description: "Very delicious and unforgotable"
     price: 3.49
     quantity: 0
     limitPerUser: 1
-    image: 51.png
+    image: 37.webp
     reviews:
       - { text: "K33p5 y0ur ju1cy 5plu773r 70 y0ur53lf!", author: uvogin }
       - { text: "Puny mask for puny human weaklings!", author: bender }
   -
-    name: '3 Combos Ice Cream'
+    name: 'Salade Niçoise'
     description: 'sweet and tasty'
     price: 2.99
     deluxePrice: 0.99
     deletedDate: '2020-11-30'
     limitPerUser: 5
-    image: 41.png
+    image: 38.webp
     reviews:
       - { text: "Ooooh, puny human playing Mau Mau, now?", author: bender }
   -
-    name: 'Caramel Ice-cream'
+    name: 'Pâté'
     description: 'sweet and tasty'
     price: 9.99
     deluxePrice: 6.99
     deletedDate: '2020-11-30'
     quantity: 2
     limitPerUser: 1
-    image: 40.png
+    image: 39.webp
     reviews:
       - { text: "Mau Mau with bling-bling? Humans are so pathetic!", author: bender }
   -
-    name: '3 ryu ice cream'
+    name: 'Galette Bretonne'
     description: 'sweet and tasty'
     price: 9.99
     quantity: 1
     limitPerUser: 1
-    image: 35.png
+    image: 40.webp
     reviews:
       - { text: "🧊 Let it go, let it go 🎶 Can't hold it back anymore 🎶 Let it go, let it go 🎶 Turn away and slam the door ❄️", author: rapper }
   -
-    name: 'Capuccino Set'
+    name: 'Feijoada'
     description: 'Unique digital painting depicting Stan, our most qualified and almost profitable salesman. He made a succesful carreer in selling used ships, coffins, krypts, crosses, real estate, life insurance, restaurant supplies, voodoo enhanced asbestos and courtroom souvenirs before <em>finally</em> adding his expertise to the Juice Shop marketing team.'
     price: 5
     quantity: 1
-    image: 46.png
+    image: 41.webp
     reviews:
       - { text: "I'd stand on my head to make you a deal for this piece of art.", author: stan }
       - { text: "Just when my opinion of humans couldn't get any lower, along comes Stan...", author: bender }
   -
-    name: 'Fresh Fruit mix'
+    name: 'Coxinha '
     description: 'sweet and tasty'
     price: 10
     quantity: 3
     limitPerUser: 1
-    image: 34.png
+    image: 42.webp
     reviews:
       - { text: 'DO NOT PLAY WITH THIS! Double-sleeve, then put it in the GitHub Arctic Vault for perfect preservation and boost of secondary market value!', author: accountant }
   -
-    name: 'Starbuck soda'
+    name: 'Moqueca'
     description: 'sweet and tasty'
     price: 0.00000000000000000001
     deletedDate: '2021-09-25'
     limitPerUser: 1
-    image: 61.png
+    image: 43.webp
     reviews:
       - { text: "I'll be there! Will you, too?", author: bjoernOwasp }
 memories:

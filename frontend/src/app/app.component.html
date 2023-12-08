@@ -5,7 +5,7 @@
 
 <div class="mat-typography">
   <mat-sidenav-container fullscreen>
-    <mat-sidenav #sidenav mode="over">
+    <mat-sidenav id="side-bar" #sidenav mode="over">
       <sidenav (sidenavToggle)="sidenav.toggle()"></sidenav>
     </mat-sidenav>
     <app-navbar (sidenavToggle)="sidenav.toggle()"></app-navbar>

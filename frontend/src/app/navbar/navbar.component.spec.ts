@@ -162,7 +162,7 @@ describe('NavbarComponent', () => {
   it('should use default application name if not customized', () => {
     configurationService.getApplicationConfiguration.and.returnValue(of({}))
     component.ngOnInit()
-    expect(component.applicationName).toBe('CSTAD CAFE')
+    expect(component.applicationName).toBe('FOODIE CSTAD')
   })
 
   it('should use custom application name URL if configured', () => {
