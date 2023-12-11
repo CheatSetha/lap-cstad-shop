@@ -3,12 +3,12 @@
   ~ SPDX-License-Identifier: MIT
   -->
 
-<mat-dialog-content style="background-color: white; padding: 24px;">
+<mat-dialog-content style="background-color: white; padding: 24px; border-radius: 10px;">
 
   <div  class="container mat-typography" fxLayout="column">
     <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutGap="20px">
       <div fxFlex="noshrink">
-        <img class="img-thumbnail" [src]="'assets/public/images/products/'+data.productData.image" alt={{data.productData.name}}>
+        <img style="border-radius: 10px;" class="img-thumbnail" [src]="'assets/public/images/products/'+data.productData.image" alt={{data.productData.name}}>
       </div>
 
       <div>
@@ -94,7 +94,7 @@
       </mat-form-field>
 
       <mat-dialog-actions align="end" class="dialogAction">
-        <button mat-stroked-button mat-dialog-close class="close-dialog buttons" aria-label="Close Dialog">
+        <button style="border: none; color: white;" mat-stroked-button mat-dialog-close class="close-dialog buttons" aria-label="Close Dialog">
           <i class="material-icons">
             close
           </i>

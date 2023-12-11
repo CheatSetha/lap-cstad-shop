@@ -18,20 +18,20 @@
             (mouseenter)="isHovered = true"
             (mouseleave)="isHovered = false"
           >
-            <div
+            <!-- <div
               class="ribbon ribbon-top-left"
               *ngIf="item.quantity <= 5 && item.quantity > 0"
             >
               <span translate [translateParams]="{ quantity: item.quantity }"
                 >LABEL_ONLY_QUANTITY_LEFT</span
               >
-            </div>
-            <div
+            </div> -->
+            <!-- <div
               class="ribbon ribbon-top-left ribbon-sold"
               *ngIf="item.quantity <= 0"
             >
               <span id="ribbon-sold-out" translate>LABEL_SOLD_OUT</span>
-            </div>
+            </div> -->
 
             <div
               id="box-detail"
