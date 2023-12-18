@@ -91,7 +91,14 @@ export class LoginComponent implements OnInit {
       localStorage.removeItem('token')
       this.cookieService.remove('token')
       sessionStorage.removeItem('bid')
-      this.error = error
+      if (typeof error === 'object' && error !== null && error.error && typeof error.error.message === 'string') {
+        this.error = error.error.message; // Sets error message if it's an object with a valid message property
+      } else if (typeof error === 'string') {
+        this.error = error; // Sets error message directly if it's a string
+      } else {
+        this.error = 'An unknown error occurred'; // Fallback message for other cases
+      }
+      console.log(error,"error");
       this.userService.isLoggedIn.next(false)
       this.emailControl.markAsPristine()
       this.passwordControl.markAsPristine()
